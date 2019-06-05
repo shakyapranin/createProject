@@ -3,7 +3,7 @@
 function create() {
     cd /home/pranin/Projects/createShell/
     python create.py $1
-    cd /home/pranin/Projects/MyProjects/$1/
+    cd /home/pranin/Projects/$1/
     git init
     git remote add origin git@github.com:shakyapranin/$1.git
     touch README.md
