@@ -1,7 +1,7 @@
 #!/usr/bin
 
 function create() {
-    cd /home/pranin/Projects/createShell/
+    cd /home/pranin/Projects/createProject/
     python create.py $1
     cd /home/pranin/Projects/$1/
     git init
